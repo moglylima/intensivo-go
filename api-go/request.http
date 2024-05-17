@@ -1,0 +1,45 @@
+GET http://localhost:3000/users HTTP/1.1
+
+###
+
+POST  http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "john@gmail.com"
+} 
+
+###
+
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Jane Doe",
+    "email": "jane@gmail.com"
+}
+
+###
+
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Jean",
+    "email": "jean@gmail.com"
+}
+
+###
+
+DELETE http://localhost:3000/users/25c198c4-a142-4eda-afe8-0cd27a3d8a40 HTTP/1.1
+
+###
+
+PUT http://localhost:3000/users/c2c1bcaa-5387-4754-abf4-c7c87fea2108 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Jean",
+    "email": "jean@gmail.com"
+}

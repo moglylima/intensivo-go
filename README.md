@@ -3,3 +3,8 @@ Evento promovido pela empresa Full Cycle visando uma abordagem introdutória ao 
 
 1. Go: Conhecendo a linguagem, criando primeiro programa em GO;
 2. Go: Alta Performance, Multithreading e Profiling na prática;
+3. Go: API sem Framework, gRPC e Profiling;
+
+Obs:
+ - AIR Go Live Reload;
+ 
